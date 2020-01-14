@@ -10,5 +10,8 @@ npm install -S @feizheng/next-wait-to-display
 ```js
 import '@feizheng/next-wait-to-display';
 
-//DOCS here!
+// check target:
+nx.waitToDisplay('#target', 1000, (el) => {
+  console.log('has element!', el);
+});
 ```
