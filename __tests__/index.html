@@ -1,31 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <script src="/@feizheng/next-js-core2/dist/next-js-core2.js"></script>
+  <script src="/node_modules/@feizheng/next-js-core2/dist/next-js-core2.js"></script>
   <script src="/next-wait-to-display.js"></script>
 </head>
-
 <body>
-  <div class="target">ABC</div>
-  <button id="btn">ShowElement</button>
   <script>
-    (function () {
-      var btn = document.querySelector('#btn');
-      var target = document.querySelector('.target');
-      nx.waitToDisplay('.el', 1000, () => {
-        console.log('has element!');
-      })
-      btn.onclick = function () {
-        console.log('btn click');
-        target.innerHTML = '<div class="el">Element</div>'
-      }
-    }())
+    //YOUR CODES
   </script>
 </body>
-
 </html>
