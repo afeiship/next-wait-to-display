@@ -3,7 +3,7 @@
  * description: Wait element display in document.
  * homepage: https://github.com/afeiship/next-wait-to-display
  * version: 1.0.0
- * date: 2020-11-20 10:53:34
+ * date: 2020-11-20 10:54:47
  * license: MIT
  */
 
