@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-wait-to-display
+ * name: @jswork/next-wait-to-display
  * description: Wait element display in document.
  * homepage: https://github.com/afeiship/next-wait-to-display
- * version: 1.0.2
- * date: 2020-10-13T23:36:39.418Z
+ * version: 1.0.0
+ * date: 2020-11-20 10:53:34
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.waitToDisplay = function (inSelector, inDelay, inCallback) {
     var el = document.querySelector(inSelector);
