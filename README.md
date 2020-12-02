@@ -13,7 +13,7 @@ npm install -S @jswork/next-wait-to-display
 
 ## usage
 ```js
-import '@feizheng/next-wait-to-display';
+import '@jswork/next-wait-to-display';
 
 // check target:
 nx.waitToDisplay('#target', 1000, (el) => {
