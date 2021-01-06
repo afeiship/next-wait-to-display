@@ -3,12 +3,12 @@
  * description: Wait element display in document.
  * homepage: https://github.com/afeiship/next-wait-to-display
  * version: 1.0.0
- * date: 2020-11-20 10:54:47
+ * date: 2021-01-06 20:34:14
  * license: MIT
  */
 
 (function () {
-  var global = global || this || window || Function('return this')();
+  var global = global || window || Function('return this')();
   var nx = global.nx || require('@jswork/next');
 
   nx.waitToDisplay = function (inSelector, inDelay, inCallback) {
