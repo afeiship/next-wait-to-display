@@ -2,8 +2,8 @@
  * name: @jswork/next-wait-to-display
  * description: Wait element display in document.
  * homepage: https://github.com/afeiship/next-wait-to-display
- * version: 1.0.1
- * date: 2021-01-06 20:35:04
+ * version: 1.0.2
+ * date: 2021-01-09 16:09:14
  * license: MIT
  */
 
