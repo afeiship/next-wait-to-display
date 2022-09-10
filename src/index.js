@@ -2,15 +2,9 @@
   var global = typeof window !== 'undefined' ? window : this || Function('return this')();
   var nx = global.nx || require('@jswork/next');
 
-  nx.waitToDisplay = function (inSelector, inDelay, inCallback, inTimeout) {
+  nx.waitToDisplay = function (inSelector, inDelay, inCallback) {
     var el = document.querySelector(inSelector);
-    var timeoutFlag = false;
-
-    setTimeout(function () {
-      timeoutFlag = true;
-    }, inTimeout || 10 * 100);
-
-    if (el != null || timeoutFlag) {
+    if (el != null) {
       return inCallback(el);
     } else {
       setTimeout(function () {
