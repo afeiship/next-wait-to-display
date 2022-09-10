@@ -5,5 +5,5 @@ interface NxStatic {
    * @param delay
    * @param callback
    */
-  waitToDisplay(selector: string, delay: number, callback: any): any;
+  waitToDisplay(selector: string, delay: number, callback: any, timeoutCallback?: any): any;
 }
