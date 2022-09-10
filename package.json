@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-wait-to-display",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Wait element display in document.",
   "homepage": "https://github.com/afeiship/next-wait-to-display",
   "author": {
