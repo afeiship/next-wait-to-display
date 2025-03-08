@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-wait-to-display",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Wait element display in document.",
   "homepage": "https://js.work",
   "files": [
