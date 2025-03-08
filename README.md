@@ -8,17 +8,14 @@
 
 ## installation
 ```bash
-npm install -S @jswork/next-wait-to-display
+yarn add @jswork/next-wait-to-display
 ```
 
 ## usage
 ```js
 import '@jswork/next-wait-to-display';
 
-// check target:
-nx.waitToDisplay('#target', 1000, (el) => {
-  console.log('has element!', el);
-});
+//DOCS here!
 ```
 
 ## license
