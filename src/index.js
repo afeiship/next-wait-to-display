@@ -1,7 +1,5 @@
 import nx from '@jswork/next';
 
-const defaults = { context: global };
-
 nx.waitToDisplay = function (inSelector, inDelay, inCallback, inTimes) {
   var el = document.querySelector(inSelector);
   var times = inTimes === undefined ? 10000 : inTimes;
